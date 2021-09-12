@@ -11,11 +11,11 @@ my_hash = {
   pink_floyd: true,
   age: 75
 }
-puts '----------each2'
+puts '#each'
 my_hash.each { |key, value| puts "#{key}: #{value}" }
-puts '----------my2'
+puts '#my_each'
 my_hash.my_each { |key, value| puts "#{key}: #{value}" }
-puts '----------each1'
+puts '#each'
 my_hash.each { |key| puts key.to_s }
-puts '----------my1'
+puts '#my_each'
 my_hash.my_each { |key| puts key.to_s }
